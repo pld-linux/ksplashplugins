@@ -1,0 +1,33 @@
+--- ksplashplugins/src/ks2k/theme2k.cpp.oryg	2004-06-21 15:25:40.889827784 +0200
++++ ksplashplugins/src/ks2k/theme2k.cpp	2004-06-21 15:25:43.876373760 +0200
+@@ -27,7 +27,7 @@
+ #include "theme2k.h"
+ #include "theme2k.moc"
+ 
+-K_EXPORT_COMPONENT_FACTORY( libksplash2k, KGenericFactory<Theme2k> );
++K_EXPORT_COMPONENT_FACTORY( libksplash2k, KGenericFactory<Theme2k> )
+ 
+ Cfg2k::Cfg2k( KConfig * )
+ {}
+--- ksplashplugins/src/macx/thememacx.cpp.oryg	2004-06-21 15:28:11.924866968 +0200
++++ ksplashplugins/src/macx/thememacx.cpp	2004-06-21 15:28:33.807540296 +0200
+@@ -28,7 +28,7 @@
+ #include "thememacx.h"
+ #include "thememacx.moc"
+ 
+-K_EXPORT_COMPONENT_FACTORY( libksplashmacx, KGenericFactory<ThemeMacX> );
++K_EXPORT_COMPONENT_FACTORY( libksplashmacx, KGenericFactory<ThemeMacX> )
+ 
+ ThemeMacX::ThemeMacX( QWidget *parent, const char *name, const QStringList &args )
+     :ThemeEngine( parent, name, args )
+--- ksplashplugins/src/macclassic/thememacclassic.cpp.oryg	2004-06-21 15:21:30.788848912 +0200
++++ ksplashplugins/src/macclassic/thememacclassic.cpp	2004-06-21 15:21:40.222414792 +0200
+@@ -54,7 +54,7 @@
+ #include "preview1.xpm"
+ #include "preview2.xpm"
+ 
+-K_EXPORT_COMPONENT_FACTORY( libksplashmacclassic, KGenericFactory<ThemeMacClassic> );
++K_EXPORT_COMPONENT_FACTORY( libksplashmacclassic, KGenericFactory<ThemeMacClassic> )
+ 
+ MacClassicConfig::MacClassicConfig( QWidget *parent, KConfig *config )
+     :ThemeEngineConfig( parent, config )
