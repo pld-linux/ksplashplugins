@@ -3,7 +3,7 @@
 #
 
 Summary:	Plugins for new KDE splash
-Summary(pl):	Pluginy do nowego splasha KDE
+Summary(pl):	Wtyczki do nowego splasha KDE
 Name:		ksplashplugins
 Version:	0.2
 Release:	1
@@ -15,82 +15,81 @@ BuildRequires:	kdebase-devel >= 3.2-0.030410.1
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
-Plugins for new KDE splash
+Plugins for new KDE splash.
 
 %description -l pl
-Pluginy do nowego splasha KDE
+Wtyczki do nowego splasha KDE.
 
 %package -n kde-splashplugin-2k
-Summary:	ksplashplugin 2k	
-Summary(pl):	ksplashplugin 2k
+Summary:	ksplash plugin 2k
+Summary(pl):	Wtyczka ksplash 2k
 Group:		X11/Amusements
 Provides:	ksplashplugin
 Requires:	kdebase >= 3.2-0.030410.1
 
 %description -n kde-splashplugin-2k
-ksplashplugin 2k
+ksplash plugin 2k.
 
 %description -n kde-splashplugin-2k -l pl
-ksplashplugin 2k
+Wtyczka ksplash 2k.
 
 %package -n kde-splashplugin-MacClassic
-Summary:	ksplashplugin MacClassic	
-Summary(pl):	ksplashplugin MacClassic
+Summary:	ksplash plugin MacClassic
+Summary(pl):	Wtyczka ksplash MacClassic
 Group:		X11/Amusements
 Provides:	ksplashplugin
 Requires:	kdebase >= 3.2-0.030410.1
 
 %description -n kde-splashplugin-MacClassic
-ksplashplugin MacClassic
+ksplash plugin MacClassic.
 
 %description -n kde-splashplugin-MacClassic -l pl
-ksplashplugin MacClassic
+Wtyczka ksplash MacClassic.
 
 %package -n kde-splashplugin-MacX
-Summary:	ksplashplugin MacX	
-Summary(pl):	ksplashplugin MacX
+Summary:	ksplash plugin MacX
+Summary(pl):	Wtyczka ksplash MacX
 Group:		X11/Amusements
 Provides:	ksplashplugin
 Requires:	kdebase >= 3.2-0.030410.1
 
 %description -n kde-splashplugin-MacX
-ksplashplugin MacCX
+ksplash plugin MacX.
 
 %description -n kde-splashplugin-MacX -l pl
-ksplashplugin MacX
+Wtyczka ksplash MacX.
 
 %package -n kde-splashplugin-Standard
-Summary:	ksplashplugin Standard	
-Summary(pl):	ksplashplugin Standard
+Summary:	ksplash plugin Standard
+Summary(pl):	Wtyczka ksplash Standard
 Group:		X11/Amusements
 Provides:	ksplashplugin
 Requires:	kdebase >= 3.2-0.030410.1
 
 %description -n kde-splashplugin-Standard
-ksplashplugin Standard
+ksplash plugin Standard.
 
 %description -n kde-splashplugin-Standard -l pl
-ksplashplugin Standard
+Wtyczka ksplash Standard.
 
 %package -n kde-splashplugin-XpLike
-Summary:	ksplashplugin XpLike	
-Summary(pl):	ksplashplugin XpLike
+Summary:	ksplash plugin XpLike	
+Summary(pl):	Wtyczka ksplash XpLike
 Group:		X11/Amusements
 Provides:	ksplashplugin
 Requires:	kdebase >= 3.2-0.030410.1
 
 %description -n kde-splashplugin-XpLike
-ksplashplugin XpLike
+ksplash plugin XpLike.
 
 %description -n kde-splashplugin-XpLike -l pl
-ksplashplugin XpLike
+Wtyczka ksplash XpLike.
 
 %prep
 %setup -q -n %{name}
 %patch0 -p1
 
 %build
-
 %configure \
 	--enable-final
 
