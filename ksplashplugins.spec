@@ -10,7 +10,7 @@ Release:	1
 License:	GPL
 Group:		X11/Applications
 Source0:	http://www.ece.osu.edu/~ravi/kde/splash/%{name}-%{version}.tar.gz
-# Source0-md5: 9baa36a5f0f88423634c4c6bb11c7669
+# Source0-md5:	9baa36a5f0f88423634c4c6bb11c7669
 Patch0:		%{name}-c++.patch
 BuildRequires:	kdebase-devel >= 9:3.2.0
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
