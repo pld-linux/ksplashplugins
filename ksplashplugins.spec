@@ -5,14 +5,14 @@
 Summary:	Plugins for new KDE splash
 Summary(pl):	Wtyczki do nowego splasha KDE
 Name:		ksplashplugins
-Version:	0.2
+Version:	0.2.3
 Release:	1
 License:	GPL
 Group:		X11/Applications
-Source0:	http://www.eleceng.ohio-state.edu/~ravi/%{name}-%{version}.tar.gz
+Source0:	http://www.ece.osu.edu/~ravi/kde/splash/%{name}-%{version}.tar.gz
 # Source0-md5: 9baa36a5f0f88423634c4c6bb11c7669
-Patch0:		%{name}-fix-xconfig.h.patch
-BuildRequires:	kdebase-devel >= 3.2-0.030410.1
+Patch0:		%{name}-c++.patch
+BuildRequires:	kdebase-devel >= 9:3.2.0
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
@@ -25,8 +25,7 @@ Wtyczki do nowego splasha KDE.
 Summary:	ksplash plugin 2k
 Summary(pl):	Wtyczka ksplash 2k
 Group:		X11/Amusements
-Provides:	ksplashplugin
-Requires:	kdebase >= 3.2-0.030410.1
+Requires:	kdebase-core >= 9:3.2.0
 
 %description -n kde-splashplugin-2k
 ksplash plugin 2k.
@@ -38,8 +37,7 @@ Wtyczka ksplash 2k.
 Summary:	ksplash plugin MacClassic
 Summary(pl):	Wtyczka ksplash MacClassic
 Group:		X11/Amusements
-Provides:	ksplashplugin
-Requires:	kdebase >= 3.2-0.030410.1
+Requires:	kdebase-core >= 9:3.2.0
 
 %description -n kde-splashplugin-MacClassic
 ksplash plugin MacClassic.
@@ -51,8 +49,7 @@ Wtyczka ksplash MacClassic.
 Summary:	ksplash plugin MacX
 Summary(pl):	Wtyczka ksplash MacX
 Group:		X11/Amusements
-Provides:	ksplashplugin
-Requires:	kdebase >= 3.2-0.030410.1
+Requires:	kdebase-core >= 9:3.2.0
 
 %description -n kde-splashplugin-MacX
 ksplash plugin MacX.
@@ -64,8 +61,7 @@ Wtyczka ksplash MacX.
 Summary:	ksplash plugin Standard
 Summary(pl):	Wtyczka ksplash Standard
 Group:		X11/Amusements
-Provides:	ksplashplugin
-Requires:	kdebase >= 3.2-0.030410.1
+Requires:	kdebase-core >= 9:3.2.0
 
 %description -n kde-splashplugin-Standard
 ksplash plugin Standard.
@@ -77,8 +73,7 @@ Wtyczka ksplash Standard.
 Summary:	ksplash plugin XpLike
 Summary(pl):	Wtyczka ksplash XpLike
 Group:		X11/Amusements
-Provides:	ksplashplugin
-Requires:	kdebase >= 3.2-0.030410.1
+Requires:	kdebase-core >= 9:3.2.0
 
 %description -n kde-splashplugin-XpLike
 ksplash plugin XpLike.
@@ -125,16 +120,16 @@ rm -rf $RPM_BUILD_ROOT
 %{_datadir}/apps/ksplash/Themes/MacX
 %{_datadir}/services/ksplashmacx.desktop
 
-%files -n kde-splashplugin-Standard
-%defattr(644,root,root,755)
-%{_libdir}/kde3/libksplashstandard.la
-%attr(755,root,root) %{_libdir}/kde3/libksplashstandard.so*
-%{_datadir}/apps/ksplash/Themes/Standard
-%{_datadir}/services/ksplashstandard.desktop
+##%files -n kde-splashplugin-Standard
+##%defattr(644,root,root,755)
+##%{_libdir}/kde3/libksplashstandard.la
+##%attr(755,root,root) %{_libdir}/kde3/libksplashstandard.so*
+##%{_datadir}/apps/ksplash/Themes/Standard
+##%{_datadir}/services/ksplashstandard.desktop
 
-%files -n kde-splashplugin-XpLike
-%defattr(644,root,root,755)
-%{_libdir}/kde3/libksplashxplike.la
-%attr(755,root,root) %{_libdir}/kde3/libksplashxplike.so*
-%{_datadir}/apps/ksplash/Themes/XpLike
-%{_datadir}/services/ksplashxplike.desktop
+##%files -n kde-splashplugin-XpLike
+##%defattr(644,root,root,755)
+##%{_libdir}/kde3/libksplashxplike.la
+##%attr(755,root,root) %{_libdir}/kde3/libksplashxplike.so*
+##%{_datadir}/apps/ksplash/Themes/XpLike
+##%{_datadir}/services/ksplashxplike.desktop
