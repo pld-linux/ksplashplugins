@@ -74,7 +74,7 @@ ksplash plugin Standard.
 Wtyczka ksplash Standard.
 
 %package -n kde-splashplugin-XpLike
-Summary:	ksplash plugin XpLike	
+Summary:	ksplash plugin XpLike
 Summary(pl):	Wtyczka ksplash XpLike
 Group:		X11/Amusements
 Provides:	ksplashplugin
