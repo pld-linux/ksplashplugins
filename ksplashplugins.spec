@@ -3,7 +3,7 @@
 #
 
 Summary:	Plugins for new KDE splash
-Summary(pl):	Wtyczki do nowego splasha KDE
+Summary(pl.UTF-8):   Wtyczki do nowego splasha KDE
 Name:		ksplashplugins
 Version:	0.2.3
 Release:	1
@@ -18,67 +18,67 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 %description
 Plugins for new KDE splash.
 
-%description -l pl
+%description -l pl.UTF-8
 Wtyczki do nowego splasha KDE.
 
 %package -n kde-splashplugin-2k
 Summary:	ksplash plugin 2k
-Summary(pl):	Wtyczka ksplash 2k
+Summary(pl.UTF-8):   Wtyczka ksplash 2k
 Group:		X11/Amusements
 Requires:	kdebase-core >= 9:3.2.0
 
 %description -n kde-splashplugin-2k
 ksplash plugin 2k.
 
-%description -n kde-splashplugin-2k -l pl
+%description -n kde-splashplugin-2k -l pl.UTF-8
 Wtyczka ksplash 2k.
 
 %package -n kde-splashplugin-MacClassic
 Summary:	ksplash plugin MacClassic
-Summary(pl):	Wtyczka ksplash MacClassic
+Summary(pl.UTF-8):   Wtyczka ksplash MacClassic
 Group:		X11/Amusements
 Requires:	kdebase-core >= 9:3.2.0
 
 %description -n kde-splashplugin-MacClassic
 ksplash plugin MacClassic.
 
-%description -n kde-splashplugin-MacClassic -l pl
+%description -n kde-splashplugin-MacClassic -l pl.UTF-8
 Wtyczka ksplash MacClassic.
 
 %package -n kde-splashplugin-MacX
 Summary:	ksplash plugin MacX
-Summary(pl):	Wtyczka ksplash MacX
+Summary(pl.UTF-8):   Wtyczka ksplash MacX
 Group:		X11/Amusements
 Requires:	kdebase-core >= 9:3.2.0
 
 %description -n kde-splashplugin-MacX
 ksplash plugin MacX.
 
-%description -n kde-splashplugin-MacX -l pl
+%description -n kde-splashplugin-MacX -l pl.UTF-8
 Wtyczka ksplash MacX.
 
 %package -n kde-splashplugin-Standard
 Summary:	ksplash plugin Standard
-Summary(pl):	Wtyczka ksplash Standard
+Summary(pl.UTF-8):   Wtyczka ksplash Standard
 Group:		X11/Amusements
 Requires:	kdebase-core >= 9:3.2.0
 
 %description -n kde-splashplugin-Standard
 ksplash plugin Standard.
 
-%description -n kde-splashplugin-Standard -l pl
+%description -n kde-splashplugin-Standard -l pl.UTF-8
 Wtyczka ksplash Standard.
 
 %package -n kde-splashplugin-XpLike
 Summary:	ksplash plugin XpLike
-Summary(pl):	Wtyczka ksplash XpLike
+Summary(pl.UTF-8):   Wtyczka ksplash XpLike
 Group:		X11/Amusements
 Requires:	kdebase-core >= 9:3.2.0
 
 %description -n kde-splashplugin-XpLike
 ksplash plugin XpLike.
 
-%description -n kde-splashplugin-XpLike -l pl
+%description -n kde-splashplugin-XpLike -l pl.UTF-8
 Wtyczka ksplash XpLike.
 
 %prep
