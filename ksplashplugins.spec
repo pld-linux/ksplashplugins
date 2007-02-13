@@ -3,7 +3,7 @@
 #
 
 Summary:	Plugins for new KDE splash
-Summary(pl.UTF-8):   Wtyczki do nowego splasha KDE
+Summary(pl.UTF-8):	Wtyczki do nowego splasha KDE
 Name:		ksplashplugins
 Version:	0.2.3
 Release:	1
@@ -23,7 +23,7 @@ Wtyczki do nowego splasha KDE.
 
 %package -n kde-splashplugin-2k
 Summary:	ksplash plugin 2k
-Summary(pl.UTF-8):   Wtyczka ksplash 2k
+Summary(pl.UTF-8):	Wtyczka ksplash 2k
 Group:		X11/Amusements
 Requires:	kdebase-core >= 9:3.2.0
 
@@ -35,7 +35,7 @@ Wtyczka ksplash 2k.
 
 %package -n kde-splashplugin-MacClassic
 Summary:	ksplash plugin MacClassic
-Summary(pl.UTF-8):   Wtyczka ksplash MacClassic
+Summary(pl.UTF-8):	Wtyczka ksplash MacClassic
 Group:		X11/Amusements
 Requires:	kdebase-core >= 9:3.2.0
 
@@ -47,7 +47,7 @@ Wtyczka ksplash MacClassic.
 
 %package -n kde-splashplugin-MacX
 Summary:	ksplash plugin MacX
-Summary(pl.UTF-8):   Wtyczka ksplash MacX
+Summary(pl.UTF-8):	Wtyczka ksplash MacX
 Group:		X11/Amusements
 Requires:	kdebase-core >= 9:3.2.0
 
@@ -59,7 +59,7 @@ Wtyczka ksplash MacX.
 
 %package -n kde-splashplugin-Standard
 Summary:	ksplash plugin Standard
-Summary(pl.UTF-8):   Wtyczka ksplash Standard
+Summary(pl.UTF-8):	Wtyczka ksplash Standard
 Group:		X11/Amusements
 Requires:	kdebase-core >= 9:3.2.0
 
@@ -71,7 +71,7 @@ Wtyczka ksplash Standard.
 
 %package -n kde-splashplugin-XpLike
 Summary:	ksplash plugin XpLike
-Summary(pl.UTF-8):   Wtyczka ksplash XpLike
+Summary(pl.UTF-8):	Wtyczka ksplash XpLike
 Group:		X11/Amusements
 Requires:	kdebase-core >= 9:3.2.0
 
